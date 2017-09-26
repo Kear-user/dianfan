@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>超级奶爸官方网站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="xx网站">
+    <meta name="keywords" content="xx网站">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon_logo.png" />
+    <link rel="stylesheet" href="css/share.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="js/share.js" />
+    
+</head>
+<script src="js/TouchSlide.1.1.js"></script>
+<style type="text/css">
+  /* touchSlide css -------------------------------------- */
+  .focus{ width:100%; height:600px;  margin:0 auto; position:relative; overflow:hidden;   }
+  .focus .hd{ width:100%; height:11px;  position:absolute; z-index:1; bottom:5px; text-align:center;  }
+  .focus .hd ul{ display:inline-block; height:5px; padding:3px 5px; background-color:rgba(255,255,255,0.7); 
+    -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;
+  }
+  .focus .hd ul li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#8C8C8C; margin:0 5px;  vertical-align:top; overflow:hidden;   }
+  .focus .hd ul .on{ background:#FE6C9C;  }
+
+  .focus .bd{ position:relative; z-index:0; }
+  .focus .bd li img{ width:100%;  height:600px; background:url(images/loading.gif) center center no-repeat;  }
+  .focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */  }
+  
+</style>
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <div class="container">
+      <ul class="inner">
+        <li><a href=""><span class="n1">走进品牌</span><span class="n2">BRAND</span></a></li>
+        <li><a href=""><span class="n1">特色饮品</span><span class="n2">DRINKS</span></a></li>
+        <li class="logo"><a href=""><img src="images/header_logo.png" alt="超级奶爸官方网站-OFFICIAL WEBSITE" width="220rem" height="110rem" ></a>
+        </li>
+        <li><a href=""><span class="n1">加盟我们</span><span class="n2">JOIN</span></a></li>
+        <li><a href=""><span class="n1">联系我们</span><span class="n2">RELATION</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- banner -->
+  <!-- 本例touchSlide Start ================================ -->
+      <div id="focus" class="focus">
+        <div class="hd">
+          <ul></ul>
+        </div>
+        <div class="bd">
+          <ul>
+              <li><a href="#"><img _src="images/banner1.jpg" src="images/blank.png" /></a></li>
+              <li><a href="#"><img _src="images/banner2.jpg" src="images/blank.png"/></a></li>
+              <li><a href="#"><img _src="images/banner3.jpg" src="images/blank.png"/></a></li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+        TouchSlide({ 
+          slideCell:"#focus",
+          titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+          mainCell:".bd ul", 
+          effect:"left", 
+          autoPlay:true,//自动播放
+          autoPage:true, //自动分页
+          switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+        });
+      </script>
+      <!-- 本例touchSlide主要代码 End ================================ -->
+</body>
+</html>

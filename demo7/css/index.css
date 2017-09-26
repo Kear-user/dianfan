@@ -1,0 +1,362 @@
+.header{
+	width:100%;
+	position: relative;
+}
+.header .container{
+	width:100%;
+	height: 11rem;
+	background: #fff;
+}
+.header .container .inner{
+	/*width: 70rem;*/
+	width: 45rem;
+	height: 100%;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+.header .inner li{
+	width: 9rem;
+	height: 100%;
+	float: left;
+}
+.header ul li:nth-child(2){
+	margin-left: -2rem;
+}
+.header ul li:nth-child(4){
+	margin-left: 1rem;
+}
+.header ul li:nth-child(5){
+	margin-left: -1rem;
+}
+.header .inner span{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.header .inner a{
+	text-decoration: none;
+}
+.header .inner img{
+	margin-top: 3.5rem;
+}
+.header .inner .n1{
+	font-size: 0.9rem;
+	margin-top:5rem;
+}
+.header .inner .n2{
+	font-size: 0.7rem;
+	margin-top: 0.2rem;
+}
+
+/*content1*/
+.content1{
+	width: 100%;
+	background: #be986c;
+	position: relative;
+	height: 52rem;
+}
+.content1 .ct{
+	width: 40rem;
+	margin:0 auto;
+}
+.content1 .ct img:nth-child(1){
+	margin-top: 2rem;
+	margin-left: 15rem;
+}
+.content1 .ct .text1{
+	padding: 2rem;
+}
+.content1 .ct img:nth-child(3){
+	width:100%;
+}
+
+/*content2*/
+.content2{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.content2 .ct{
+	width: 40rem;
+	margin:0 auto;
+}
+.content2 .ct img:nth-child(1){
+	margin-top: 2rem;
+	margin-left: 15rem;
+}
+.content2 .ct2{
+	width: 100%;
+	height: 30rem;
+}
+.historyborder{
+	width: 100%;
+	border-bottom: 0.1rem dotted #BEBEBE;
+	margin-top: 16rem;
+	position: absolute;
+}
+.content2 .ct2 li img{
+	height: 10rem;
+	float: left;
+	margin-top: 6rem;
+	margin-left:3rem;
+	display: inline-block;
+}
+.content2 .ct2 li span{
+	width: 4rem;
+	position: absolute;
+	transform: translate(-4rem,17rem);
+}
+/*content3*/
+.content3{
+	width: 100%;
+	height: 35rem;
+	overflow: hidden;
+}
+.content3 .tittle{
+	text-align: center;
+	padding: 5rem 0;
+}
+.content3 .tittle1{
+	color: #009100;
+	font-size: 2rem;
+}
+.content3 .tittle2{
+	margin-top:0.5rem;
+	margin-left:10rem;
+	color: #009100;
+	font-size: 1rem;
+}
+/*content4*/
+.content4{
+	width: 100%;
+	background-color:#636363;
+}
+.content4 .tittle{
+	text-align: center;
+	padding: 5rem 0;
+	font-size: 2rem;
+}
+.content4 .tittle1{
+	font-size: 2rem;
+}
+.content4 .tittle2{
+	margin-top:0.5rem;
+	margin-left:10rem;
+	font-size: 1rem;
+}
+.content4 .ct{
+	text-align: center;
+}
+.content4 .ct1{
+	width:100%;
+}
+.content4 .ct1 img{
+	width: 20rem;
+	height: 15rem;
+	margin-left: 8rem;
+}
+.content4 .ct1 .article{
+	float: right;
+	width: 16rem;
+	margin-right: 12rem;
+}
+.content4 .article .caption{
+	font-size: 1.3rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.content4 .article .describe{
+	margin-top: 1.5rem;
+}
+.content4 .ct2{
+	width:100%;
+}
+.content4 .ct2 img{
+	width: 20rem;
+	height: 15rem;
+	margin-left: -8rem;
+}
+.content4 .ct2 .article{
+	width: 16rem;
+	float: left;
+	margin-left: 12rem;
+}
+/*content5*/
+.content5{
+	width: 100%;
+	height: 35rem;
+	background-color: #fff;
+}
+.content5 video{
+	transform: translate(35%,10%);
+}
+.content5  .video_tittle{
+	text-align: center;
+	padding: 5rem 0 2rem 0;
+}
+.content5  .video_tittle1{
+	font-size: 2rem;
+}
+.content5  .video_tittle2{
+	font-size: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 10rem;
+}
+/*content6*/
+.content6{
+	width: 100%;
+}
+.content6 .ct{
+	width: 40rem;
+	height: 40rem;
+	margin:0 auto;
+	background-color: #e0e0e0;
+}
+.content6 .ct1{
+
+}
+.content6 .ct1 a{
+	text-decoration: none;
+	color: #000;
+	opacity: 0.8;
+}
+.content6 .ct1 img{
+	padding: 0 0.8rem;
+}
+.content6 .ct1 .bottom_border{
+	width: 100%;
+	border-bottom: 0.05rem solid;
+	opacity: 0.2;
+}
+.content6 .ct2{
+	width: 100%;
+	height: 15rem;
+}
+.content6 .ct2 .article{
+	margin-left: 20rem;
+	padding-top: 1rem;
+	height: 10rem;
+	width: 15rem;	
+}
+.content6 .ct2 .describe{
+	font-size: 0.9rem;
+}
+.content6 .ct2 a img{
+	width: 15rem;
+    height: 10rem;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+.content6 .ct3{
+	width: 100%;
+	height: 20rem;
+}
+.content6 .ct3 .bottom_border{
+	border-bottom: 0.05rem dotted;
+	opacity: 0.3;
+	margin-left: 2rem;
+	width: 37rem;
+}
+.content6 .ct3 .tab{
+	border: 0.1rem solid red;
+    margin-left: 2rem;
+    opacity: 0.8;
+}
+.content6 .ct3 .theme{
+    margin-left: 1rem;
+    font-weight: 600;
+}
+.content6 .ct3 .date{
+	margin-left: 22rem;
+	opacity: 0.6;
+	font-size: 0.8rem;
+}
+/*content7*/
+.content7{
+	width: 100%;
+	height: 30rem;
+}
+.content7 .brand{
+	width: 46rem;
+	height: 20rem；
+}
+.content7 .brand_tittle{
+	padding: 5rem 0;
+    margin-left: 30rem;
+}
+.content7 .brand_tittle span:nth-child(1){
+	font-size: 1.5rem;
+}
+.content7 .brand_tittle span:nth-child(2){
+	margin-left: 1rem;
+}
+.content7 .brand_content{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*superslide.css  content1*/
+	.slideBox{ width:100%; height:24rem; overflow:hidden; position:relative; border:0.05rem solid #ddd;  }
+    .slideBox .hd{ height:0.75rem; overflow:hidden; position:absolute; right:0.25rem; bottom:0.25rem; z-index:1; }
+    .slideBox .hd ul{ overflow:hidden; zoom:1; float:left; font-size: 0.6rem; }
+    .slideBox .hd ul li{ float:left; margin-right:0.1rem;  width:0.75rem; height:0.75rem; line-height:0.7rem; text-align:center; background:#fff; cursor:pointer; /*font-size: 0.6rem;*/}
+    .slideBox .hd ul li.on{ background:#f00; color:#fff; }
+    .slideBox .bd{ position:relative; height:100%; z-index:0;   }
+    .slideBox .bd li{ zoom:1; vertical-align:middle; }
+    .slideBox .bd img{ width:100%; height:24rem; display:block;  }
+
+    /* 下面是前/后按钮代码，如果不需要删除即可 */
+    .slideBox .prev,
+    .slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-1.25rem; display:block; width:1.6rem; height:2rem; background:url("../images/slider-arrow.png") -5.5rem 0.25rem no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+    .slideBox .next{ left:auto; right:3%; background-position:0.4rem 0.25rem; }
+    .slideBox .prev:hover,
+    .slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;}
+    .slideBox .prevStop{ display:none;  }
+    .slideBox .nextStop{ display:none;  }
+
+/*superslide.css  content3*/
+	.picMarquee-left{ width:100%;  overflow:hidden; position:relative;  border:0.05rem solid #ccc;   }
+	.picMarquee-left .hd{ overflow:hidden;  height:1.5rem; background:#f4f4f4; padding:0 0.5rem;  }
+	.picMarquee-left .hd .prev,.picMarquee-left .hd .next{ display:block;  width:0.25rem; height:0.45rem; float:right; margin-right:0.25rem; margin-top:0.5rem;  overflow:hidden;
+		 cursor:pointer; background:url("") no-repeat;}
+	.picMarquee-left .hd .next{ background-position:0 -2.5rem;  }
+	.picMarquee-left .hd .prevStop{ background-position:-3rem 0; }
+	.picMarquee-left .hd .nextStop{ background-position:-3rem -2.5rem; }
+	.picMarquee-left .bd{ padding:0.5rem;   }
+	.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+	.picMarquee-left .bd ul li{ margin:0 0.4rem; float:left; _display:inline; overflow:hidden; text-align:center;  }
+	.picMarquee-left .bd ul li .pic{ text-align:center; }
+	.picMarquee-left .bd ul li .pic img{ width:20rem; height:15rem; display:block; padding:0.1rem; border:0.05rem solid #ccc; }
+	.picMarquee-left .bd ul li .pic a:hover img{ border-color:#999;  }
+	.picMarquee-left .bd ul li .title{ line-height:1.2rem;   }
+
+/*touchslide.css*/\
+	.focus{ width:100%; height:30rem;  margin:0 auto; position:relative; overflow:hidden;   }
+	.focus .hd{ width:100%; height:0.55rem;  position:absolute; z-index:1; bottom:0.25rem; text-align:center;  }
+	.focus .hd ul{ display:inline-block; height:0.25rem; padding:0.15rem 0.25rem; background-color:rgba(255,255,255,0.7); 
+		-webkit-border-radius:0.25rem; -moz-border-radius:0.25rem; border-radius:0.25rem; font-size:0; vertical-align:top;
+	}
+	.focus .hd ul li{ display:inline-block; width:0.25rem; height:0.25rem; -webkit-border-radius:0.25rem; -moz-border-radius:0.25rem; border-radius:0.25rem; background:#8C8C8C; margin:0 0.25rem;  vertical-align:top; overflow:hidden;   }
+	.focus .hd ul .on{ background:#FE6C9C;  }
+
+	.focus .bd{ position:relative; z-index:0; }
+	.focus .bd li img{ width:100%;  height:30rem; background:url(images/loading.gif) center center no-repeat;  }
+	.focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */  }
