@@ -1,3 +1,10 @@
+.iconfont{
+    font-size: 24px !important;
+}
+.iconfont.active{
+    color: #dd4925;
+}
+
 #js_toobar3 span {
  	color:#8d8d8d;
 } 
